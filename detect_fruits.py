@@ -26,7 +26,8 @@ def detect_fruits(img_path: str) -> Dict[str, int]:
     img = cv2.imread(img_path, cv2.IMREAD_COLOR)
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV).astype("float32")
 
-# APPLE:
+# Apple
+
     red_lower = np.array([11, 104, 255])
     red_upper = np.array([3, 255, 255])
 
@@ -55,6 +56,7 @@ def detect_fruits(img_path: str) -> Dict[str, int]:
         count = cv2.drawContours(dilation, final_contours, i, (50, 250, 50), 7)
 
     apple = len(final_contours)
+
 # Banana
 
     yellow_lower = np.array([34, 85, 255])
@@ -85,6 +87,7 @@ def detect_fruits(img_path: str) -> Dict[str, int]:
     banana = len(final_contours2)
 
 # Orange:
+
     orange_lower = np.array([9, 198, 153])
     orange_upper = np.array([17, 255, 255])
 
@@ -103,6 +106,7 @@ def detect_fruits(img_path: str) -> Dict[str, int]:
     )
 
     final_contours3 = []
+
     for contour in contours:
         area = cv2.contourArea(contour)
         if area > 30000:
