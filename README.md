@@ -19,14 +19,18 @@ All images were captured "from above" but from different heights. In addition, t
 
 An example image from the dataset and the correct detection result for it is shown below:
 
+
+<p align="center">
+  <img width="180" height="180" src=".https://user-images.githubusercontent.com/65020389/167257585-a8076246-2ed2-4800-8a8f-26bea49f476a.jpg">
+</p>
+
+
+
 ```bash
 PS C:\Projects\WdPO> python -u "c:\Projects\WdPO\test.py"
 Apple:  2 Banana:  1 Orange:  1
 ```
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/65020389/165869894-81d36917-2054-438a-999f-21ffacd8d4ab.png">
-</p>
 
 ### Libraries
 
