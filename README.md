@@ -21,7 +21,7 @@ An example image from the dataset and the correct detection result for it is sho
 
 
 <p align="center">
-  <img width="180" height="180" src=".https://user-images.githubusercontent.com/65020389/167257585-a8076246-2ed2-4800-8a8f-26bea49f476a.jpg">
+  <img width="180" height="180" src="https://user-images.githubusercontent.com/65020389/167257585-a8076246-2ed2-4800-8a8f-26bea49f476a.jpg">
 </p>
 
 
